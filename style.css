@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', 'Arial';
+}
+
+table {
+  border: 2px solid #000;
+  text-align: center;
+  font-size: 24px;
+  width: 1200px;
+  height: 730px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -365px;
+  margin-left: -600px;
+}
+
+table td {
+  width: 180px;
+  height: 60px;
+  border: 1px solid #aaa;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+table #title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+table .num {
+  width: 50px;
+}
+
+table .time {
+  width: 200px;
+}
+
+table #title:hover,
+table .weekday:hover,
+table .num:hover,
+table .time:hover,
+table #mid:hover {
+  background-color: #ffa;
+}
+
+table .course:hover {
+  background-color: #faa;
+}
+
+table td:hover {
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
